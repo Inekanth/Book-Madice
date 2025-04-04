@@ -124,7 +124,7 @@ const Appointment = () => {
       ))}
     </div>
     
-    <button className='sm:ml-72 sm:pl-2 text-white rounded-full bg-primary py-2 px-14 my-6 ite'>Book your Appointment</button>
+    <button className='sm:ml-72 sm:pl-2 text-white rounded-full bg-primary py-2 px-14 my-6 ite justify-center'>Book your Appointment</button>
 
     <RelatedDoctors docId = {docId} speciality = {docInfo.speciality} />
   </div>
